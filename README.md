@@ -8,9 +8,6 @@
 This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to create, work, and resolves tickets within osTicket](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -31,7 +28,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h2>Lifecycle Stages</h2>
 
-Tickets were created by Ken and Karen Smith via end-user login. 
+Tickets were created by Ken and Karen Smith via end-user login. Lead Admin reviews incoming tickets. 
 
 <p>
   
@@ -39,7 +36,15 @@ Tickets were created by Ken and Karen Smith via end-user login.
 
 </p>
 
-Ticket was assigned to Jane Doe, Level 1 support.
+The Lead Admin selects Karen's ticket for assessment. 
+
+<p>
+  
+ ![new open ticket](https://github.com/ishaqjones/osTicket-Ticket-Lifecycle-Examples/assets/156931487/72638c6a-26a7-4d40-9291-ba2ec8128d06)
+ 
+</p>
+
+The ticket is assigned the ticket to Jane Doe, Level 1 support by the Lead Admin.
 
 <p>
   
@@ -47,7 +52,7 @@ Ticket was assigned to Jane Doe, Level 1 support.
  
 </p>
 
-Log out from admin privileges and log in as Jane Doe for analysis and resolution. Jane is assigned to the task and is working on the issue.  
+Log out from Lead Admin privileges and log in as Jane Doe for analysis and resolution. Jane is assigned to the task and is working on the issue.  
 
 <p>
   
@@ -55,7 +60,7 @@ Log out from admin privileges and log in as Jane Doe for analysis and resolution
   
 </p>
 
-Jane has assessed the issue, committed to a resolution, acknowledged through notation.
+Jane has assessed the issue, committed to a resolution, and acknowledged it through documentation.
 
 <p>
   
@@ -71,7 +76,7 @@ Jane reviews closed tickets in the ticket tab.
 
 </p>
 
-Logged in as Lead Admin, following up on additional tickets.  The  equipment request will be assigned to John Doe Level 1 as Jane is resolving Karen's request. 
+Logged in as Lead Admin, following up on additional tickets.  Triaging, all equipment requests will be assigned to John Doe Level 1 as Jane is resolving Karen's request. 
 
 <p>
   
@@ -79,7 +84,7 @@ Logged in as Lead Admin, following up on additional tickets.  The  equipment req
 
 </p>
 
-The ticket has been assigned to John. 
+The ticket has been assigned to John by the Lead Admin.
 
 <p>
 
@@ -87,7 +92,7 @@ The ticket has been assigned to John.
 
 </p>
 
-Logged in as John Doe. John checked his open tickets. 
+(Logged in as John Doe). John checked his open tickets. 
 
 <p>
 
@@ -100,6 +105,14 @@ John contacts Ken to meet with him for his keyboard replacement. John replaces K
 <p>
 
 ![john closed ticket](https://github.com/ishaqjones/osTicket-Ticket-Lifecycle-Examples/assets/156931487/636002e2-e419-41fa-88d3-79196770d67d)
+
+</p>
+
+(Logged in as Lead Admin), I review the closed tickets. Tickets have been closed by Jane and John. 
+
+<p>
+  
+  ![list of closed tickets](https://github.com/ishaqjones/osTicket-Ticket-Lifecycle-Examples/assets/156931487/0bf0224d-bcc7-4542-928e-2c9270ee3852)
 
 </p>
 
